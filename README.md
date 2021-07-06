@@ -12,9 +12,7 @@ and use the wrist and elbow position to approximate the hand location,
 assuming the hand extends 0.15 times the length of the forearm in the same direction.
 ```
 
-If anybody wants a pure python wrapper, please refer to my [pytorch implementation](https://github.com/Hzzone/pytorch-openpose) of openpose, maybe it helps you to implement a standalone hand keypoint detector.
 
-Don't be mean to star this repo if it helps your research.
 
 ### Getting Started
 
@@ -52,12 +50,7 @@ to run a demo with a feed from your webcam or run
 
 to use a image from the images folder.
 
-### Todo list
-- [x] convert caffemodel to pytorch.
-- [x] Body Pose Estimation.
-- [x] Hand Pose Estimation.
-- [ ] Performance test.
-- [ ] Speed up.
+
 
 ### Demo
 #### Skeleton
@@ -73,28 +66,5 @@ to use a image from the images folder.
 #### Body + Hand
 ![](images/demo_preview.png)
 
-### Citation
-Please cite these papers in your publications if it helps your research (the face keypoint detector was trained using the procedure described in [Simon et al. 2017] for hands):
 
-```
-@inproceedings{cao2017realtime,
-  author = {Zhe Cao and Tomas Simon and Shih-En Wei and Yaser Sheikh},
-  booktitle = {CVPR},
-  title = {Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields},
-  year = {2017}
-}
-
-@inproceedings{simon2017hand,
-  author = {Tomas Simon and Hanbyul Joo and Iain Matthews and Yaser Sheikh},
-  booktitle = {CVPR},
-  title = {Hand Keypoint Detection in Single Images using Multiview Bootstrapping},
-  year = {2017}
-}
-
-@inproceedings{wei2016cpm,
-  author = {Shih-En Wei and Varun Ramakrishna and Takeo Kanade and Yaser Sheikh},
-  booktitle = {CVPR},
-  title = {Convolutional pose machines},
-  year = {2016}
-}
 ```
